@@ -1,38 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T02:11:41.510Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="b42zlL0frirVLn13t93T" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-21T03:13:47.523Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="k-5tAMoGUDGs4weoL8A7" version="21.6.5" type="github">
   <diagram name="Page-1" id="YQkKPv3IHBz7KrScqebn">
-    <mxGraphModel dx="510" dy="356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="616" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-1" value="Vulkan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="280" width="80" height="40" as="geometry" />
+          <mxGeometry x="1610" y="1070" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-2" value="ValidationLayer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="515" y="195" width="110" height="40" as="geometry" />
+          <mxGeometry x="1735" y="985" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-4" value="GLFW" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="210" width="80" height="40" as="geometry" />
+          <mxGeometry x="1490" y="1000" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-5" value="swap chain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="300" width="80" height="40" as="geometry" />
+          <mxGeometry x="1480" y="1090" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-6" value="WSI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="370" width="80" height="40" as="geometry" />
+          <mxGeometry x="1480" y="1160" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-7" value="instance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="370" width="80" height="40" as="geometry" />
+          <mxGeometry x="1645" y="1160" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-8" value="physical devices" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="310" width="80" height="40" as="geometry" />
+          <mxGeometry x="1750" y="1100" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-9" value="queue families" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="195" width="80" height="40" as="geometry" />
+          <mxGeometry x="1610" y="985" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-10" value="logical device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="390" width="80" height="40" as="geometry" />
+          <mxGeometry x="1780" y="1180" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-11" value="Extension" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="130" width="80" height="40" as="geometry" />
+          <mxGeometry x="1490" y="920" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-12" value="basic surface capabilities" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="1040" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-13" value="surface formats" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="1090" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-14" value="available presentation modes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="1140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-15" value="surface format" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1040" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-18" value="presentation mode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1090" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-19" value="swap extent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-20" value="vertical blank" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1090" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-21" value="triple buffering" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1140" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
