@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T01:55:58.946Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" version="21.6.5" etag="YLdj90FR2fuekVSHOXok" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-21T02:03:39.786Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="8BjfQBl0D8Pn5Ci8B9Li" version="21.6.5" type="github">
   <diagram name="Page-1" id="YQkKPv3IHBz7KrScqebn">
-    <mxGraphModel>
+    <mxGraphModel dx="510" dy="356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-1" value="Vulkan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-2" value="ValidationLayer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="195" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-4" value="GLFW" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="210" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-5" value="swap chain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-6" value="WSI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="370" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-7" value="instance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="370" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-8" value="physical devices" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="310" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-9" value="queue families" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="195" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-10" value="logical device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="390" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
