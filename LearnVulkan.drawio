@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T05:52:29.506Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="tWTahYx8rHImHR-mwbCc" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-24T05:57:28.791Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="pT9OkpIFIEdgLWTeK0xU" version="21.6.5" type="github">
   <diagram name="Page-1" id="YQkKPv3IHBz7KrScqebn">
     <mxGraphModel dx="616" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
       <root>
@@ -73,26 +73,73 @@
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-29" value="Graphics Pipeline" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="1750" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zpY-GAfpiMJKnw2xZxAC-30" target="zpY-GAfpiMJKnw2xZxAC-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-30" value="Input assembler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="1820" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zpY-GAfpiMJKnw2xZxAC-31" target="zpY-GAfpiMJKnw2xZxAC-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="1890" />
+              <mxPoint x="760" y="1890" />
+              <mxPoint x="760" y="1920" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-31" value="Vertex shader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="1820" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zpY-GAfpiMJKnw2xZxAC-32" target="zpY-GAfpiMJKnw2xZxAC-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="1870" />
+              <mxPoint x="740" y="1870" />
+              <mxPoint x="740" y="1920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-32" value="Tessellation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="1820" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zpY-GAfpiMJKnw2xZxAC-33" target="zpY-GAfpiMJKnw2xZxAC-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-33" value="Geometry shader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="1820" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zpY-GAfpiMJKnw2xZxAC-34" target="zpY-GAfpiMJKnw2xZxAC-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-34" value="Rasterization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="1820" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zpY-GAfpiMJKnw2xZxAC-35" target="zpY-GAfpiMJKnw2xZxAC-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-35" value="Fragment shader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="1820" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zpY-GAfpiMJKnw2xZxAC-36" target="zpY-GAfpiMJKnw2xZxAC-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="1980" />
+              <mxPoint x="680" y="1980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-36" value="Color blending" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1040" y="1820" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpY-GAfpiMJKnw2xZxAC-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zpY-GAfpiMJKnw2xZxAC-37" target="zpY-GAfpiMJKnw2xZxAC-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1170" y="1890" />
+              <mxPoint x="880" y="1890" />
+              <mxPoint x="880" y="1920" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="zpY-GAfpiMJKnw2xZxAC-37" value="Framebuffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="1820" width="80" height="40" as="geometry" />
